@@ -1,7 +1,7 @@
 # twiceApp
 Repositorio Aplicacion TWICE
 
-#INSTALACIÓN
+# Instalación
 Instalar wamp o xammp
 Descargar la carpeta del repositorio
 Meterla en C:\wamp\www (Para wamp) C:\wamp\htdocs (Para Xammp)
