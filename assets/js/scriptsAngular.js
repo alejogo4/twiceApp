@@ -13,6 +13,6 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
                     templateUrl: 'views/photos.html'
                 });
 
-            $urlRouterProvider.otherwise('pages'); //defaul para regresar a esta vista
+            $urlRouterProvider.otherwise('pages'); //Default para cargar esta pagina por defecto
     
     })
