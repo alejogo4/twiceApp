@@ -1,0 +1,196 @@
+body {
+    background-color: #F6F5FA;
+    margin-top: 65px;
+}
+::-webkit-input-placeholder {
+    color: #5F8AB3 !important;
+}
+:-ms-input-placeholder {
+    color: #5F8AB3 !important;
+}
+::-moz-placeholder {
+    color: #5F8AB3 !important;
+    opacity: 1;
+}
+:-moz-placeholder {
+    color: #5F8AB3 !important;
+    opacity: 1;
+}
+.navbar-custom {
+    background-color: #ffffff;
+}
+.navbar-custom a {
+    color: #5F8AB3 !important;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+}
+.navbar-custom .navbar-brand {
+    text-decoration: none;
+    color: #eeeeee;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:focus, .nav > li > a:hover {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.navbar-custom .navbar-boton-mailbox:hover {
+    border-bottom: solid 4px #2175C8;
+    cursor: pointer;
+}
+.iconos-menu {
+    font-size: 20px;
+}
+.color-icono-busqueda {
+    color: #5F8AB3 !important;
+}
+.estilo-mailbox {
+    height: 21px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    padding-left: 5px;
+}
+.form-busqueda-barra {
+    width: 300px !important;
+}
+.estilo-logo {
+    height: 30px;
+    margin-top: 10px
+}
+.margen-vertical {
+    margin-bottom: 30px
+}
+.img-galeria {
+    cursor: pointer;
+}
+.pantalla-imagen-comentarios {
+    color: #E5E5E5 !important;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+}
+.contenedor-borde-perfil {
+    border-radius: 8px;
+}
+.contenenedor-imagen-comentarios {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contenedor-foto-perfil {
+    position: relative;
+}
+.seccion-foto-perfil {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.contenedor-controles-secciones {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+.iconos-controles-secciones {
+    font-size: 25px;
+    color: #B1C8E0 !important;
+}
+.iconos-controles-secciones:hover {
+    font-size: 25px;
+    color: #98AEC5 !important;
+}
+.texto-controles-secciones {
+    color: #4F6B87 !important;
+    text-decoration: none !important;
+    margin-right: 50px;
+}
+.texto-bold-controles-secciones {
+    display: table-caption;
+    font-size: 13px;
+}
+.texto-controles-secciones-no-margen {
+    margin-right: 0px;
+}
+.col-sin-borde-izquierdo {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow-x: hidden;
+}
+.contenedor-borde-comentarios {
+    background-color: white;
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.contenedor-un-comentario {
+    position: relative;
+}
+.contenedor-info-perfil-comentario {
+    padding: 15px 18px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+.contenedor-info-perfil-comentario:after {
+    border-bottom: solid 1px #e1e1e1;
+    content: '';
+    display: block;
+    width: 98%;
+    margin-left: 2%;
+    padding-top: 15px;
+}
+.seccion-foto-perfil-comentario {
+    padding-right: 0px;
+}
+.foto-perfil-comentario {
+    width: 60%;
+}
+.seccion-nombre-perfil-comentario {
+    padding-left: 0px;
+}
+.nombre-perfil-comentario {
+    color: #5F8AB3;
+    width: 100%;
+    top: 6px;
+    position: relative;
+}
+.texto-perfil-comentario {
+    color: #8D8D8D;
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+}
+.seccion-tiempo-comentario {
+    height: 55px;
+}
+.tiempo-comentario {
+    color: #868686;
+    top: 6px;
+    position: relative;
+}
+.contenedor-controles-secciones-comentario {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    border-bottom: solid 1px #e1e1e1;
+}
+.contenedor-show-more {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texto-show-more {
+    color: #4F6B87 !important;
+    text-decoration: none !important;
+}

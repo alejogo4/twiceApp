@@ -1,0 +1,298 @@
+body {
+    background-color: #F6F5FA;
+    margin-top: 65px;
+}
+::-webkit-input-placeholder {
+    color: #5F8AB3 !important;
+}
+:-ms-input-placeholder {
+    color: #5F8AB3 !important;
+}
+::-moz-placeholder {
+    color: #5F8AB3 !important;
+    opacity: 1;
+}
+:-moz-placeholder {
+    color: #5F8AB3 !important;
+    opacity: 1;
+}
+.navbar-custom {
+    background-color: #ffffff;
+}
+.navbar-custom a {
+    color: #5F8AB3 !important;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+}
+.navbar-custom .navbar-brand {
+    text-decoration: none;
+    color: #eeeeee;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:focus, .nav > li > a:hover {
+    border-bottom: solid 4px #2175C8;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.navbar-custom .navbar-boton-mailbox:hover {
+    border-bottom: solid 4px #2175C8;
+    cursor: pointer;
+}
+.iconos-menu {
+    font-size: 20px;
+}
+.color-icono-busqueda {
+    color: #5F8AB3 !important;
+}
+.estilo-mailbox {
+    height: 21px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    padding-left: 5px;
+}
+.form-busqueda-barra {
+    width: 300px !important;
+}
+.estilo-logo {
+    height: 30px;
+    margin-top: 10px
+}
+.margen-vertical {
+    margin-bottom: 15px
+}
+.contenedor-borde-whats-new {
+    border-radius: 5px;
+    border: solid 1px #e1e1e1;
+}
+.contenedor-whats-new {
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: solid 1px #e1e1e1;
+    width: 100%;
+    padding: 12px 15px 7px 10px;
+    background-color: white;
+}
+.seccion-foto-comentario {
+    padding-right: 0px !important;
+}
+.seccion-comentario-foto {
+    height: 50px;
+    padding-left: 0px !important;
+}
+.seccion-foto {
+    width: 65%;
+}
+.seccion-comentario {
+    color: #5F8AB3;
+    border: none;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+.contenedor-controles {
+    background-color: #F6F7F9;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 24px 8px 35px;
+}
+.seccion-iconos-controles {
+    height: 34px;
+    padding-top: 6px;
+}
+.iconos-controles {
+    font-size: 15px;
+    padding-top: 10px;
+    margin-right: 16px;
+    color: #4F6B87 !important;
+}
+.iconos-controles:hover {
+    color: #637C95 !important;
+}
+.anchor-controles {
+    text-decoration: none !important;
+}
+.btn-enviar-comentario {
+    padding: 3px 12px;
+    margin-top: 3px;
+    background-color: #2175C8;
+}
+.contenedor-borde-perfil {
+    border-radius: 8px;
+    -webkit-box-shadow: -4px 4px 4px 0px rgba(158,158,158,0.75);
+    -moz-box-shadow: -4px 4px 4px 0px rgba(158,158,158,0.75);
+    box-shadow: -4px 4px 4px 0px rgba(158,158,158,0.75);
+}
+.contenedor-foto-perfil {
+    position: relative;
+}
+.seccion-foto-perfil {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.seccion-texto-sobre-foto-perfil {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    padding-left: 15px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%
+}
+.texto-sobre-foto-perfil {
+    
+}
+.contenedor-controles-secciones {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+.iconos-controles-secciones {
+    font-size: 25px;
+    color: #B1C8E0 !important;
+}
+.iconos-controles-secciones:hover {
+    font-size: 25px;
+    color: #98AEC5 !important;
+}
+.texto-controles-secciones {
+    color: #4F6B87 !important;
+    text-decoration: none !important;
+    margin-right: 50px;
+}
+.texto-bold-controles-secciones {
+    display: table-caption;
+    font-size: 13px;
+}
+.texto-controles-secciones-no-margen {
+    margin-right: 0px;
+}
+.contenedor-borde-noticia {
+    border-radius: 5px;
+    border: solid 1px #e1e1e1;
+    background-color: white;
+}
+.contenedor-info-perfil-noticia {
+    padding: 15px 18px 0px 10px;
+}
+.seccion-foto-perfil-noticia {
+    padding-right: 0px;
+}
+.foto-perfil-noticia {
+    width: 75%;
+}
+.seccion-nombre-perfil-noticia {
+    padding-left: 0px;
+    height: 55px;
+}
+.nombre-perfil-noticia {
+    color: #5F8AB3;
+    width: 100%;
+    top: 6px;
+    position: relative;
+}
+.seccion-tiempo-noticia {
+    height: 55px;
+}
+.tiempo-noticia {
+    color: #868686;
+    top: 6px;
+    position: relative;
+}
+.contenedor-texto-imagen-noticia {
+    border: solid 1px #e1e1e1;
+    margin: 13px;
+    padding: 13px 13px 0px 13px;
+}
+.seccion-texto-noticia {
+
+}
+.seccion-imagen-noticia {
+    padding: calc(0px + 1px);
+}
+.imagen-noticia {
+    width: 100%;
+}
+.seccion-texto-fuente-noticia {
+    color: #b6b6b6;
+    padding-top: 5px;
+}
+.borde-superior-controles:before {
+    border-top: solid 1px #e1e1e1;
+    content: '';
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 15px;
+}
+.borde-superior-controles {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.contenedor-borde-sign-in {
+    border-radius: 7px;
+    border: solid 1px #e1e1e1;
+    background-color: white;
+    padding-bottom: 45px;
+}
+.seccion-titulo-sign-in {
+    color: #2175C8;
+    border-radius: 7px;
+}
+.checkbox-sign-in {
+    color: #337ab7;
+    margin-top: 0px;
+}
+.seccion-btn-sign-in {
+    padding-top: 15px
+}
+.btn-sign-in {
+    background-color: #2175C8;
+    width: 95px;
+}
+.contenedor-texto-imagen-sin-noticia {
+    padding: 13px 13px 0px 13px;
+}
+.contenedor-controles-secciones-sin-noticia {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+.contenedor-borde-sign-up {
+    border-radius: 7px;
+    border: solid 1px #2175C8;
+    background-color: #2175C8;
+    padding-bottom: 45px;
+}
+.seccion-titulo-sign-up {
+    color: white;
+    border-radius: 7px;
+}
+.btn-sign-up {
+    background-color: white;
+    color: #2175C8;
+}
+.seccion-texto-sign-up {
+    color: white;
+    padding-top: 15px;
+}
+.seccion-texto-sign-up a {
+    color: white;
+}
+.borde-texto-sign-up:after {
+    border-bottom: solid 1px white;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
