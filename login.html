@@ -32,8 +32,7 @@
 			<nav class="navbar navbar-custom navbar-fixed-top">
 				<div class="container">
 				  	<div class='navbar-header'>
-				    	<button type='button' class='navbar-toggle' data-toggle='collapse'
-				            data-target='.navbar-ex1-collapse'>
+				    	<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-ex1-collapse'>
 					      	<span class='sr-only'>Desplegar navegación</span>
 					      	<span class='icon-bar'></span>
 					      	<span class='icon-bar'></span>
@@ -49,7 +48,7 @@
 							</div>
 					    </form>
 				  		<div class='nav navbar-left navbar-boton-mailbox'>
-				  			<a ui-sref="login"><img  class='estilo-mailbox' src='assets/img/mailbox.png'></a>
+				  			<img class='estilo-mailbox' src='assets/img/mailbox.png'>
 				  		</div>
 				    	<ul class='nav navbar-nav'>
 				      		<li><a href='#'>PROFILE</a></li>
@@ -59,19 +58,15 @@
 				      		<li><a href='#'>NEWS</a></li>
 				      		<li><a href='#'>OPINION</a></li>
 				      	</ul>
-				      	<ul class="nav navbar-nav navbar-right" >
-				      		<li><a href="#"><span class="fui-chat iconos-menu"></span></a></li>
-					    	<li><a href="#"><span class="glyphicon glyphicon-bell iconos-menu"></span></a></li>
-					    	<li><a href="#"><span class="fui-user iconos-menu"></span></a></li>
-					    	<li><a href="#"><span class="glyphicon glyphicon-bookmark iconos-menu"></span></a></li>
+				      	<ul class="nav navbar-nav navbar-right">
+				      		<button class="btn btn-primary btn-sign-in btn_menu">Get it free</button>
 					    </ul>
 				  	</div>
                 </div>
 			</nav>
 		</header>
          
-        <!--Cargar las vistas-->
-        <ui-view></ui-view>
+        
 
 </body>
 </html>
