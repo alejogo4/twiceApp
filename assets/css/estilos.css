@@ -143,22 +143,18 @@ body {
     bottom: 0px;
     padding-left: 15px;
     color: white;
-    background-color: black;
-    opacity: 0.5;
-    width: 100%
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    width: 100%;
 }
 .texto-sobre-foto-perfil {
     
 }
-
-.btn_menu{
-    margin-top: 8px;
-}
 .contenedor-controles-secciones {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     background-color: white;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 9px 9px;
 }
 .iconos-controles-secciones {
     font-size: 25px;
@@ -186,30 +182,32 @@ body {
     background-color: white;
 }
 .contenedor-info-perfil-noticia {
-    padding: 15px 18px 0px 10px;
+    padding: 16px 18px 0px 10px;
 }
 .seccion-foto-perfil-noticia {
-    padding-right: 0px;
+    padding-right: 2px;
 }
 .foto-perfil-noticia {
-    width: 75%;
+    width: 65%;
+    margin-left:-8px
 }
 .seccion-nombre-perfil-noticia {
-    padding-left: 0px;
+    padding-left:0px;
     height: 55px;
 }
 .nombre-perfil-noticia {
     color: #5F8AB3;
     width: 100%;
-    top: 6px;
+    top: 12px;
     position: relative;
+    margin-left:-10px 
 }
 .seccion-tiempo-noticia {
     height: 55px;
 }
-.tiempo-noticia {
+.tiempo-noticia { 
     color: #868686;
-    top: 6px;
+    top: 12px;
     position: relative;
 }
 .contenedor-texto-imagen-noticia {
