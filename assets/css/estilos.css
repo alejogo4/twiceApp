@@ -177,12 +177,12 @@ body {
     margin-right: 0px;
 }
 .contenedor-borde-noticia {
-    border-radius: 5px;
+    border-radius: 7px;
     border: solid 1px #e1e1e1;
     background-color: white;
 }
 .contenedor-info-perfil-noticia {
-    padding: 16px 18px 0px 10px;
+    padding: 18px 18px 0px 8px;
 }
 .seccion-foto-perfil-noticia {
     padding-right: 2px;
@@ -265,8 +265,8 @@ body {
     padding: 13px 13px 0px 13px;
 }
 .contenedor-controles-secciones-sin-noticia {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 21px;
+    padding-bottom: 21px;
     background-color: white;
     border-radius: 0px 0px 15px 15px;
 }
@@ -308,6 +308,7 @@ body {
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 .form-signin .checkbox
 {
@@ -341,10 +342,9 @@ body {
 }
 .account-wall
 {
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 40px 0px 20px 0px;
-    background-color: #f7f7f7;
-    
+    background-color: rgb(246, 245, 250);
 }
 .login-img
 {
@@ -352,18 +352,18 @@ body {
     font-size: 18px;
     font-weight: 400;
     display: block;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 .profile-img
 {
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto 10px;
     display: block;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 3px solid #dfe1ed;
+    border: 5.5px solid #dfe1ed;
 }
 
 .btn-block{

@@ -2,7 +2,7 @@
 var myApp = angular.module('apptest', ['ui.router']);
 
 myApp.config(function($stateProvider, $urlRouterProvider) {
-        
+            
             $stateProvider
                 .state('pages', {
                     url: '/pages',
@@ -32,7 +32,11 @@ myApp.controller('pageHome',function($scope,$state){
 
 
 myApp.controller('pagePhoto',function($scope,$state){
+    $scope.comentarios = false;
     
+    $scope.mostrarFoto = function(valor){
+        $scope.comentarios = valor;
+    }
     
 })
 
